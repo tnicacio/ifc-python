@@ -1,9 +1,3 @@
-# Install dependencies:
-
-python -m pip install -r requirements.txt
-
-for i in {1..10}; do ./vai.sh; done
-
 # How to create and initialize a virtual environment
 
 https://docs.python.org/3/library/venv.html
@@ -18,3 +12,11 @@ env\scripts\activate
 para desativar:
 
 env\scripts\deactivate
+
+# Install dependencies:
+
+python -m pip install -r requirements.txt
+
+# Stress Test
+
+for i in {1..10}; do ./vai.sh; done
